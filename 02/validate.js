@@ -5,6 +5,7 @@ const part1Validation = (term, obj) => {
   if (timesMatched >= atLeast && timesMatched <= atMost) {
     return true
   }
+  return false
 }
 
 const part2Validation = (term, obj) => {
@@ -16,6 +17,7 @@ const part2Validation = (term, obj) => {
   ) {
     return true
   }
+  return false
 }
 
 const validatePasswords = (passwordObj, part) => {
