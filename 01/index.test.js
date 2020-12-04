@@ -1,5 +1,3 @@
-;("use strict")
-
 const productOf2Summands = require("./part1")
 const productOf3Summands = require("./part2")
 
